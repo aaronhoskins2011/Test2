@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aaron.test2.CarInfoFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:text="Make"
+            android:id="@+id/etCarModel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <EditText
+            android:text="Type"
+            android:id="@+id/etCarType"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <EditText
+            android:text="Year"
+            android:id="@+id/etCarYear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:onClick="onButtonPressed"
+            android:text="Add To List"
+            android:id="@+id/btnSendInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</FrameLayout>
